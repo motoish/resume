@@ -1,0 +1,114 @@
+# Site
+repository: motoish/resume
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Yuan Zhang
+title: System Administrator
+email: yuan.zhang@gmx.com
+website: www.github.com/motoish/resume
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  motoish
+# twitter_username: jekyll
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  Hi, my name's Yuan and I'm a system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+
+  I am most skilled in: <mark>AWS</mark>, <mark>GCP</mark> and <mark>Azure</mark>
+
+content:
+  # - title: Projects
+  #   layout: list
+  #   content:
+  #     - layout: left
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: |
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Saitama University
+        caption: 2015 - 2017
+        sub_title: Humanities and Social Science
+        quote: >
+          In April 2015, the Graduate School of Humanities and Social Sciences at Saitama University launched a new graduate-level Department of Japanese and Asian Studies.
+        description: |
+          During my time at Saitama University I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I enjoyed my time as university and learnt a lot about a healthy work life balance.
+      - layout: left
+        title: Bunkyo University
+        caption: 2014 - 2015
+        sub_title: Foreign Student Department
+        quote: >
+          A curriculum designed to provide you with the Japanese language and other subjects to enter undergraduate or graduate programs. In April 1993, the Foreign Student Department was established as a division of the Japanese language training program of the Graduate School of Language and Culture.
+        description: |
+          During my time at Bunkyo University I learnt Japanese language and Japanese culture. 
+
+  - title: A Little More About Me
+    layout: text
+    content: |
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Walking
+      - Gaming(TFT)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
