@@ -7,22 +7,23 @@ version: 2
 
 # Personal info
 name: Yuan Zhang
-title: System Administrator
+title: System Engineer
 email: yuan.zhang@gmx.com
-website: www.github.com/motoish/resume
+# website: www.github.com/motoish/resume
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 github_username:  motoish
+discord_username: motoish_dc
 # twitter_username: jekyll
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-# linkedin_username: jekyll
+linkedin_username: itzyuan
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -33,7 +34,7 @@ github_username:  motoish
 additional_links:
 - title: itsgoingto.be
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://motoish.github.io/jb-notes/src/index.html
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,7 +49,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  Hi, my name's Yuan and I'm a system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name's Yuan and I'm a system Engineer. I have worked at a number of companies gaining teamwork and leadership skills.
 
   I am most skilled in: <mark>AWS</mark>, <mark>GCP</mark> and <mark>Azure</mark>
 
@@ -100,8 +101,7 @@ content:
       - Gaming(TFT)
 
 # Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+footer_show_references: false
 
 # Build settings
 remote_theme: sproogen/resume-theme
