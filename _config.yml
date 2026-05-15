@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Yuan Zhang
-title: System Engineer
+title: Cloud / System Engineer
 email: yuan.zhang@gmx.com
 # website: www.github.com/motoish/resume
 
@@ -15,32 +15,17 @@ email: yuan.zhang@gmx.com
 darkmode: false
 
 # Social links
-github_username:  motoish
+github_username: motoish
 discord_username: motoish_dc
-# twitter_username: jekyll
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
 linkedin_username: itzyuan
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://motoish.github.io/jb-notes/src/index.html
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+  - title: itsgoingto.be
+    icon: fas fa-globe
+    url: https://motoish.github.io/jb-notes/src/index.html
 
 # Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
@@ -49,29 +34,52 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: |
-  Hi, my name's Yuan and I'm a system Engineer. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name is Yuan Zhang. I am a Cloud / System Engineer with experience in cloud infrastructure, automation, and system operations.
 
-  I am most skilled in: <mark>AWS</mark>, <mark>GCP</mark> and <mark>Azure</mark>
+  I mainly work with <mark>AWS</mark>, <mark>GCP</mark>, and <mark>Azure</mark>, and I am interested in building reliable, maintainable, and automated systems.
+
+  My recent work focuses on cloud architecture, CI/CD automation, infrastructure as code, and improving deployment workflows.
 
 content:
-  # - title: Projects
-  #   layout: list
-  #   content:
-  #     - layout: left
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: |
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Skills
+    layout: text
+    content: |
+      - Cloud Platforms: AWS, GCP, Azure
+      - Infrastructure as Code: AWS CDK, CloudFormation
+      - CI/CD: GitHub Actions, semantic-release
+      - Programming: TypeScript, Python
+      - Systems: Linux, networking, troubleshooting
+      - Architecture: VPC, API Gateway, Lambda, Step Functions, Transit Gateway, EventBridge, Secrets Manager
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: left
+        title: Cloud Infrastructure Automation
+        description: |
+          Designed and maintained cloud infrastructure using AWS CDK and TypeScript.
+
+          Worked with AWS services such as Lambda, Step Functions, API Gateway, VPC, Transit Gateway, EventBridge, Secrets Manager, and Lambda Layers to build scalable and maintainable cloud workflows.
+
+      - layout: left
+        title: GitHub Actions CI/CD Automation
+        description: |
+          Built CI/CD workflows with GitHub Actions for automated testing, building, and release management.
+
+          Integrated semantic-release to automate versioning and release generation, and configured build artifacts to include version numbers in filenames.
+
+      - layout: left
+        title: Technical Notes and Knowledge Base
+        link: https://motoish.github.io/jb-notes/src/index.html
+        link_text: View Notes
+        additional_links:
+          - title: motoish/jb-notes
+            icon: fab fa-github
+            url: https://github.com/motoish/jb-notes
+        description: |
+          Maintained a personal technical knowledge base covering cloud platforms, programming, networking, and system design topics.
+
+          Used the site to organize engineering notes, cloud architecture references, and practical troubleshooting knowledge.
 
   - title: Education
     layout: list
@@ -79,26 +87,29 @@ content:
       - layout: left
         title: Saitama University
         caption: 2015 - 2017
-        sub_title: Humanities and Social Science
-        quote: >
-          In April 2015, the Graduate School of Humanities and Social Sciences at Saitama University launched a new graduate-level Department of Japanese and Asian Studies.
+        sub_title: Humanities and Social Sciences
         description: |
-          During my time at Saitama University I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Studied humanities and social sciences with a focus on Japanese and Asian studies.
+
+          Through graduate-level research and coursework, I developed analytical, communication, and problem-solving skills, which continue to support my work as an engineer in multicultural environments.
+
       - layout: left
         title: Bunkyo University
         caption: 2014 - 2015
         sub_title: Foreign Student Department
-        quote: >
-          A curriculum designed to provide you with the Japanese language and other subjects to enter undergraduate or graduate programs. In April 1993, the Foreign Student Department was established as a division of the Japanese language training program of the Graduate School of Language and Culture.
         description: |
-          During my time at Bunkyo University I learnt Japanese language and Japanese culture. 
+          Completed Japanese language and cultural studies as preparation for graduate-level education in Japan.
+
+          Built a strong foundation in Japanese communication, academic writing, and cross-cultural understanding.
 
   - title: A Little More About Me
     layout: text
     content: |
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      Outside of work, I enjoy learning about cloud infrastructure, software engineering, and system design.
+
+      My other interests include:
       - Walking
-      - Gaming(TFT)
+      - Gaming, especially Teamfight Tactics
 
 # Footer
 footer_show_references: false
@@ -111,4 +122,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
