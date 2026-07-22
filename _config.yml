@@ -23,7 +23,7 @@ linkedin_username: itzyuan
 additional_links:
   - title: itsgoingto.be
     icon: fas fa-globe
-    url: https://motoish.github.io/jb-notes/src/index.html
+    url: https://motoish.github.io/jb-notes/
 
 # Google Analytics and Tag Manager
 # gtm: "GTM-0000000"
@@ -70,7 +70,7 @@ content:
 
       - layout: left
         title: Technical Notes and Knowledge Base
-        link: https://motoish.github.io/jb-notes/src/index.html
+        link: https://motoish.github.io/jb-notes/
         link_text: View Notes
         additional_links:
           - title: motoish/jb-notes
