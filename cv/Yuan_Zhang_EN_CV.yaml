@@ -12,7 +12,7 @@ cv:
       username: itzyuan
   sections:
     summary:
-      - System engineer with about 9 years of experience across cloud web applications, backend development, infrastructure, testing, and operations.
+      - System engineer with about {{years_of_experience}} years of experience across cloud web applications, backend development, infrastructure, testing, and operations.
       - Hands-on with AWS, GCP, and Azure; recently building serverless platforms and backend features with AWS CDK in a Scrum team.
       - Experience in finance, trading companies, internal systems, and public-sector projects, covering requirements through design, implementation, testing, and operational improvement.
     experience:

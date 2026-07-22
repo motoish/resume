@@ -1,5 +1,6 @@
 # RenderCV temporary output
 rendercv_output/
+build/
 
 # OS / editor
 .DS_Store

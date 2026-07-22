@@ -282,7 +282,10 @@ def build_page(
 
 
 def load_cv(path: Path) -> tuple[dict, str]:
+    from cv_placeholders import expand_document
+
     data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    data = expand_document(data)
     cv = data.get("cv") or {}
     language = ((data.get("locale") or {}).get("language")) or "english"
     return cv, language
