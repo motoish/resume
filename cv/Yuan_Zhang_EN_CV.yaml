@@ -1,0 +1,119 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Yuan Zhang
+  headline: Cloud / Backend / System Engineer
+  location:
+  email: yuan.zhang@gmx.com
+  website: https://motoish.github.io/jb-notes/
+  social_networks:
+    - network: GitHub
+      username: motoish
+    - network: LinkedIn
+      username: itzyuan
+  sections:
+    summary:
+      - System engineer with about 9 years of experience across cloud web applications, backend development, infrastructure, testing, and operations.
+      - Hands-on with AWS, GCP, and Azure; recently building serverless platforms and backend features with AWS CDK in a Scrum team.
+      - Experience in finance, trading companies, internal systems, and public-sector projects, covering requirements through design, implementation, testing, and operational improvement.
+    experience:
+      - company: Cloud Web Application (AWS / Serverless)
+        position: Infrastructure & Backend Engineer
+        start_date: 2022-07
+        end_date: present
+        location: Finance / Web services
+        summary: Scrum team role combining AWS infrastructure and backend development with CDK-based environment management and external API integration.
+        highlights:
+          - Designed and implemented serverless platforms and backend features with TypeScript and AWS CDK
+          - Built and evolved architectures using API Gateway, Lambda, RDS, Step Functions, SQS, CloudFormation, Route 53, CloudFront, and S3
+          - Owned GitHub Actions CI/CD, external API integrations, new AWS service introductions, and operational improvements
+          - Covered requirements clarification through design, implementation, testing, and maintenance in Scrum
+      - company: Financial Platform Support (Azure)
+        position: Backend Engineer
+        start_date: 2021-02
+        end_date: 2022-05
+        location: Finance
+        summary: Backend and Azure platform work using Python and Shell in a finance system support project.
+        highlights:
+          - Developed backend and operations-related features with Python and Shell
+          - Implemented platform capabilities with Azure Batch, Storage, Container Registry, VM, Security Center, and Monitor
+          - Delivered continuous implementation, testing, and fixes in a GitLab / Jenkins workflow
+      - company: Used Mobile Certification System (GCP)
+        position: Backend Engineer
+        start_date: 2020-02
+        end_date: 2021-01
+        location: Trading company / Services
+        summary: Backend developer on an agile team for a used-mobile certification system for a trading company.
+        highlights:
+          - Implemented and tested backend features in Go
+          - Built cloud applications using GCP managed services
+          - Delivered both enhancements and new features in an agile cadence
+      - company: Internal Web Application (On-premises)
+        position: Developer
+        start_date: 2018-04
+        end_date: 2019-03
+        location: Internal / Business systems
+        summary: End-to-end frontend and backend delivery from requirements through testing for an internal system.
+        highlights:
+          - Owned requirements, basic/detailed design, implementation, and testing
+          - Delivered business feature changes centered on Java / Spring Boot
+      - company: Municipal System Package Support
+        position: Maintenance / QA
+        start_date: 2017-09
+        end_date: 2017-12
+        location: Public sector
+        summary: Unit/integration testing and maintenance support for a municipal business system package.
+        highlights:
+          - Executed unit and integration tests and verified post-change behavior
+          - Handled maintenance work and defect investigation
+    skills:
+      - label: Cloud
+        details: AWS, GCP, Azure
+      - label: Languages / Frameworks
+        details: TypeScript, Python, Go, Java, JavaScript, Shell, PL/SQL, VBA, Spring Boot
+      - label: Databases
+        details: PostgreSQL, MySQL, Oracle, MongoDB, Cloud SQL, RDS
+      - label: DevOps / CI/CD
+        details: GitHub Actions, GitLab, Jenkins, CircleCI, Docker, CloudFormation, AWS CDK
+      - label: Tools
+        details: Git, GitHub, GoLand, VS Code, SourceTree, Redmine, ZenHub, Eclipse
+    certificates:
+      - name: AWS Certified Solutions Architect - Professional
+        date:
+      - name: Google Cloud Certified - Associate Cloud Engineer
+        date:
+      - name: Google Cloud Certified - Professional Cloud Security Engineer
+        date:
+      - name: Python 3 Engineer Certification (Basics)
+        date:
+      - name: TOEIC 720
+        date:
+    education:
+      - institution: Saitama University
+        area: Humanities and Social Sciences
+        degree: M.A.
+        start_date: 2015-04
+        end_date: 2017-03
+        location: Japan
+        highlights:
+          - Graduate coursework and research in Japanese and Asian studies
+      - institution: Bunkyo University
+        area: Foreign Student Department
+        degree: Certificate
+        start_date: 2014-04
+        end_date: 2015-03
+        location: Japan
+        highlights:
+          - Japanese language and cultural studies preparing for graduate education
+    strengths:
+      - bullet: Cloud web application development on AWS / GCP / Azure
+      - bullet: Backend development with TypeScript, Python, Go, and Java
+      - bullet: Infrastructure with AWS CDK / CloudFormation and CI/CD with GitHub Actions
+      - bullet: End-to-end delivery in Scrum from requirements to operations
+      - bullet: Stability-minded work across finance, manufacturing, trading, and public-sector systems
+design:
+  theme: engineeringclassic
+locale:
+  language: english
+settings:
+  render_command:
+    output_folder: ../rendercv_output/en

@@ -1,0 +1,114 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: 張 媛
+  headline: クラウド／バックエンド／システムエンジニア
+  location:
+  email: yuan.zhang@gmx.com
+  website: https://motoish.github.io/jb-notes/
+  social_networks:
+    - network: GitHub
+      username: motoish
+    - network: LinkedIn
+      username: itzyuan
+  sections:
+    職務要約:
+      - システムエンジニアとして約9年の業務経験を有し、クラウドWebアプリケーション開発、バックエンド開発、インフラ構築、テスト・保守運用まで幅広く担当。
+      - AWS・GCP・Azureを用いたクラウド開発経験があり、直近ではAWS CDK、API Gateway、Lambda、RDS、Step Functions、SQS等を利用したサーバレス基盤とバックエンド開発をスクラムチーム内で担当。
+      - 金融、商社、社内システム、公共機関など複数業界での開発経験があり、要件整理から設計・実装・テスト・運用改善まで一貫して対応できる。
+    業務経歴:
+      - company: クラウドWebアプリケーション開発（AWS / サーバレス）
+        position: インフラ・バックエンド開発
+        start_date: 2022-07
+        end_date: present
+        location: 金融 / Webサービス
+        summary: スクラム開発チームにて、AWSを中心としたインフラ構築とバックエンド開発を兼務。CDKを用いた環境管理、外部API連携、AWSサービス導入・改修を担当。
+        highlights:
+          - TypeScript / AWS CDK を用いたサーバレス基盤およびバックエンド機能の設計・実装
+          - API Gateway、Lambda、RDS、Step Functions、SQS、CloudFormation、Route 53、CloudFront、S3 等を利用したクラウドアーキテクチャの構築・改修
+          - GitHub Actions を用いたCI/CD、外部API連携、AWSサービスの追加導入、運用改善
+          - スクラム開発の中で、要件整理から設計・実装・テスト・保守運用まで幅広く担当
+      - company: 金融システム基盤支援・バックエンド開発（Azure）
+        position: バックエンド開発
+        start_date: 2021-02
+        end_date: 2022-05
+        location: 金融
+        summary: 金融システム基盤支援プロジェクトにて、Python / Shell を用いたバックエンド開発およびAzure基盤関連の開発を担当。
+        highlights:
+          - Python / Shell によるバックエンド処理・運用関連機能の開発
+          - Azure Batch、Storage、Container Registry、VM、Security Center、Monitor 等を利用した基盤機能の実装
+          - GitLab / Jenkins を用いた開発フローの中で、実装・テスト・改修を継続的に実施
+      - company: 商社向け中古モバイル認定システム開発（GCP）
+        position: バックエンド開発
+        start_date: 2020-02
+        end_date: 2021-01
+        location: 商社 / サービス
+        summary: 商社向け中古モバイル認定システムにおいて、アジャイル開発チームのデベロッパーとしてバックエンド開発を担当。
+        highlights:
+          - Go を用いたバックエンド機能の実装、テスト
+          - GCP の各種マネージドサービスを利用したクラウドアプリケーション開発
+          - アジャイル開発の中で、既存機能改善と新規機能開発に対応
+      - company: 社内向けWebアプリケーション開発（オンプレミス）
+        position: 開発
+        start_date: 2018-04
+        end_date: 2019-03
+        location: 社内システム / 業務系
+        summary: 社内システムプロジェクトにて、要件定義からテストまで、フロントエンド・バックエンド双方の開発工程を担当。
+        highlights:
+          - 要件定義、基本設計、詳細設計、実装、テストまで一連の工程を担当
+          - Java / Spring Boot を中心に、業務要件に合わせた機能改修を実施
+      - company: 地方自治体向けシステムパッケージ開発業務支援
+        position: 保守
+        start_date: 2017-09
+        end_date: 2017-12
+        location: 公共機関
+        summary: 地方自治体向け業務支援プロジェクトにて、単体テスト・結合テストおよび保守作業を担当。
+        highlights:
+          - 単体テスト・結合テストの実施、改修後の動作確認
+          - 既存機能の保守対応および不具合調査
+    技術スキル:
+      - label: クラウド
+        details: AWS、GCP、Azure
+      - label: 言語・FW
+        details: TypeScript、Python、Go、Java、JavaScript、Shell、PL/SQL、VBA、Spring Boot
+      - label: DB
+        details: PostgreSQL、MySQL、Oracle、MongoDB、Cloud SQL、RDS
+      - label: DevOps / CI/CD
+        details: GitHub Actions、GitLab、Jenkins、CircleCI、Docker、CloudFormation、AWS CDK
+      - label: ツール
+        details: Git、GitHub、GoLand、VS Code、SourceTree、Redmine、ZenHub、Eclipse
+    資格:
+      - bullet: AWS Certified Solutions Architect - Professional
+      - bullet: Google Cloud Certified - Associate Cloud Engineer
+      - bullet: Google Cloud Certified - Professional Cloud Security Engineer
+      - bullet: Python 3 エンジニア認定基礎試験
+      - bullet: TOEIC 720点
+    学歴:
+      - institution: 埼玉大学大学院
+        area: 人文社会科学研究科
+        degree: 修士
+        start_date: 2015-04
+        end_date: 2017-03
+        location: 日本
+        highlights:
+          - 人文社会科学研究科 修士課程
+      - institution: 文教大学
+        area: 外国人留学生別科
+        degree: 修了
+        start_date: 2014-04
+        end_date: 2015-03
+        location: 日本
+        highlights:
+          - 外国人留学生別科 修了
+    活かせる経験・強み:
+      - bullet: AWS / GCP / Azure を用いたクラウドWebアプリケーション開発経験
+      - bullet: TypeScript、Python、Go、Javaを用いたバックエンド開発経験
+      - bullet: AWS CDK / CloudFormation によるインフラ構築・環境管理、GitHub Actions等によるCI/CD対応
+      - bullet: スクラム開発における要件整理、設計、実装、テスト、保守運用までの一貫した対応
+      - bullet: 金融・製造・商社・公共領域など、業務システムに求められる安定性を意識した開発・改善
+design:
+  theme: engineeringclassic
+locale:
+  language: japanese
+settings:
+  render_command:
+    output_folder: ../rendercv_output/ja

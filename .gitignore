@@ -1,6 +1,19 @@
-*.gem
-.bundle
-.sass-cache
-_site
-Gemfile.lock
-*.code-workspace
+# RenderCV temporary output
+rendercv_output/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+.venv/
+venv/
+
+public/en/
+public/ja/
+public/downloads/
+
+docs/
