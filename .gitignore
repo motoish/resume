@@ -15,5 +15,6 @@ venv/
 public/en/
 public/ja/
 public/downloads/
+public/assets/
 
 docs/
