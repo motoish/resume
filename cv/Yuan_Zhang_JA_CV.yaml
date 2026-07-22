@@ -109,8 +109,14 @@ cv:
 design:
   theme: engineeringclassic
   typography:
-    # Raleway has no JP glyphs; without this, Typst may fall back to CN-style CJK fonts.
+    # Custom font next to the YAML (cv/fonts/). Schema may warn — RenderCV accepts it at runtime.
+    # See https://docs.rendercv.com/user_guide/how_to/custom_fonts/
     font_family: Noto Sans JP
+  page:
+    left_margin: 0.6in
+    right_margin: 0.6in
+  entries:
+    date_and_location_width: 5.8cm
   templates:
     single_date: YEAR年MONTH月
     date_range: START_DATE ～ END_DATE
