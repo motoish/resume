@@ -108,6 +108,9 @@ cv:
       - bullet: 金融・製造・商社・公共領域など、業務システムに求められる安定性を意識した開発・改善
 design:
   theme: engineeringclassic
+  typography:
+    # Raleway has no JP glyphs; without this, Typst may fall back to CN-style CJK fonts.
+    font_family: Noto Sans JP
 locale:
   language: japanese
 settings:

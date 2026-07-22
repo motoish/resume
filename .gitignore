@@ -2,6 +2,10 @@
 rendercv_output/
 build/
 
+# Downloaded Japanese fonts (fetched by scripts/fetch_fonts.sh)
+fonts/
+cv/fonts/
+
 # OS / editor
 .DS_Store
 *.swp

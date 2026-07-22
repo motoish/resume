@@ -13,8 +13,17 @@ rm -rf rendercv_output/en rendercv_output/ja build/cv
 mkdir -p rendercv_output/en rendercv_output/ja
 mkdir -p public/en public/ja public/downloads public/assets
 
+# Japanese PDF needs Noto Sans JP (avoids CN-style CJK fallback from Raleway)
+chmod +x scripts/fetch_fonts.sh
+./scripts/fetch_fonts.sh "$ROOT/fonts"
+
 # Expand {{years_of_experience}} etc. into build/cv/ for RenderCV
 python3 scripts/cv_placeholders.py
+
+# Fonts must sit next to the YAML RenderCV actually renders
+mkdir -p build/cv/fonts cv/fonts
+cp -f fonts/NotoSansJP-Regular.otf fonts/NotoSansJP-Bold.otf build/cv/fonts/
+cp -f fonts/NotoSansJP-Regular.otf fonts/NotoSansJP-Bold.otf cv/fonts/
 
 rendercv render build/cv/Yuan_Zhang_EN_CV.yaml
 rendercv render build/cv/Yuan_Zhang_JA_CV.yaml
