@@ -111,6 +111,9 @@ design:
   typography:
     # Raleway has no JP glyphs; without this, Typst may fall back to CN-style CJK fonts.
     font_family: Noto Sans JP
+  templates:
+    single_date: YEAR年MONTH月
+    date_range: START_DATE ～ END_DATE
 locale:
   language: japanese
 settings:
